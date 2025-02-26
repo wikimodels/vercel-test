@@ -2,7 +2,7 @@
 
 export const config = {
   runtime: "edge",
-  regions: ["bru1"], // Change this to a region allowed by Bybit if needed
+  regions: ["fra1"], // Change this to a region allowed by Bybit if needed
 };
 
 export default async function handler(request) {
