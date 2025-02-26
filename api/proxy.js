@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   try {
     const response = await fetch(bybitUrl);
     const data = await response.json();
-    res.send(data);
+    res.send({ data: "Fucking Shit" });
   } catch (error) {
     console.error("Proxy error:", error);
     res.status(500).json({ error: error });
