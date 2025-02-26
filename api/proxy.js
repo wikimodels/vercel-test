@@ -11,6 +11,6 @@ export default async function handler(req, res) {
     res.status(200).json(data);
   } catch (error) {
     console.error("Proxy error:", error);
-    res.status(500).json({ error: "Error fetching data from Bybit" });
+    res.status(500).json({ error: error });
   }
 }
