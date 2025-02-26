@@ -7,6 +7,6 @@ export default async function handler(req, res) {
     res.send({ data: "Fucking Shit" });
   } catch (error) {
     console.error("Proxy error:", error);
-    res.status(500).json({ error: error });
+    res.status(500).json({ error: "WTF???" });
   }
 }
