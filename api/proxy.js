@@ -1,7 +1,3 @@
-export const config = {
-  runtime: "nodejs", // explicitly use the Node.js runtime
-};
-
 export default async function handler(req, res) {
   const bybitUrl =
     "https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=15&limit=200";
